@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "coming soon..."
+require './lib/client'
+
+Client.new.start
